@@ -1,0 +1,47 @@
+body{
+    background: url("pp.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.logo img{
+    width: 400px;
+   
+    margin: 70px;
+}
+.button{
+    margin-top: 180px;
+    margin-bottom: 40px;
+    
+
+}
+button{
+    width: 100%;
+    padding: 15px;
+    
+    border: cornsilk 3px solid;
+    border-radius: 4px;
+    background: rgb(18,93,255);
+    color: cornsilk;
+    font-size: 20px;
+}
+button a :hover{
+    background-color:greenyellow;
+
+}
+@media only screen and (max-width: 966px){
+    body{
+    background-repeat: repeat;
+
+    }
+	.logo img{
+        width: 260px;
+        
+        
+    }
+    .button{
+        
+       margin-top:60px ;
+        
+    
+    }
+}
